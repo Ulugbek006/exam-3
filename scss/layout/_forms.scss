@@ -1,0 +1,28 @@
+input {
+  width: 445px;
+  display: flex;
+  margin-left: 220px;
+  width: 100%;
+  max-width: 44rem;
+  background-color: $light-black-color;
+  padding-left: 2.4rem;
+  padding-bottom: 1.7rem;
+  margin-bottom: 3rem;
+  border: 0;
+  border-bottom: 1px solid $white-color;
+  font-size: 1.2rem;
+  color: $white-color;
+}
+
+#message__input {
+  padding: 0 3rem 8rem 2.4rem;
+}
+form {
+  flex-direction: column;
+}
+
+.left {
+  margin: right -1070px;
+}
+
+// .btn

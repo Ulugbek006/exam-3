@@ -1,0 +1,399 @@
+main {
+  flex-grow: 1;
+}
+
+.hero__container {
+  background-image: url(../../images/halqa.png);
+  background-repeat: no-repeat;
+  margin-bottom: 6.6rem;
+  display: flex;
+  margin-top: 12.7rem;
+}
+.hero__content {
+  width: 706px;
+}
+.hero__title {
+  font-family: $body-font-family;
+  width: 800px;
+  color: $white-color;
+  font-size: 8.8rem;
+  font-weight: 700;
+}
+
+.hero__description {
+  font-family: $body-font-family;
+  color: $white-black-color;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 4.3rem;
+}
+
+.hero__hr {
+  border: none;
+  height: 6px;
+  font-family: $body-font-family;
+  margin-left: 140px;
+  width: 518px;
+
+  background: $light-green-color;
+}
+.hero__span {
+}
+.hero__item {
+  font-family: $body-font-family;
+  color: $light-green-color;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 4.3rem;
+}
+.hero__btn {
+  font-family: $body-font-family;
+  margin-top: 6.6rem;
+  color: $white-color;
+  font-size: 16px;
+  font-weight: 700;
+  display: inline-block;
+}
+.btn_hr {
+  border: none;
+  width: 95px;
+  height: 1px;
+  background: $light-green-color;
+}
+.hero__img-wrapper {
+  display: flex;
+  width: 445px;
+  height: 720px;
+  flex-shrink: 0;
+  background-color: $light-black-color;
+  position: relative;
+  z-index: -1;
+  margin-top: -200px;
+}
+
+.hero__img {
+  position: absolute;
+  bottom: -1px;
+}
+
+.hero__img-oval {
+  color: $white-color;
+  margin-top: 500px;
+  margin-left: -60px;
+  z-index: 1;
+}
+
+.hero__img-halqa {
+  color: $white-color;
+  margin-left: -1070px;
+  z-index: 1;
+  margin-top: 140px;
+}
+
+.skills {
+  flex-wrap: wrap;
+  display: flex;
+}
+.skills__description {
+  width: 100%;
+  color: $white-color;
+  font-family: $body-font-family;
+  max-width: 32rem;
+  margin-right: 3rem;
+  margin-bottom: 8rem;
+  padding-top: 7.2rem;
+  h2 {
+    margin-top: 72px;
+  }
+
+  hr {
+  }
+
+  .description__p {
+    font-family: $body-font-family;
+    width: 345px;
+    height: 28px;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: $white-color;
+    font-weight: 500;
+  }
+}
+
+h2 {
+  font-size: 4.8rem;
+  line-height: 1.1;
+  color: $white-color;
+  margin-bottom: 1.4rem;
+}
+
+// PROJECT
+
+.main__button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container {
+}
+.main__button__title {
+  color: $white-color;
+  font-family: $body-font-family;
+  font-size: 88px;
+  width: 334px;
+  height: 88px;
+  font-weight: 700;
+  margin-bottom: 90px;
+}
+.btn {
+  font-family: $body-font-family;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: $white-color;
+}
+.btn_main-hr {
+  border: none;
+  background-color: $light-green-color;
+  width: 97px;
+  height: 2px;
+}
+.main__button__link {
+}
+
+.skills__description__p {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.hr-skills {
+  hr {
+    border: none;
+    width: 1165px;
+    height: 1px;
+    background-color: $light-green-color;
+  }
+}
+
+.skills-container {
+  background-image: url("../../images/halqa.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.project__container {
+  display: flex;
+  flex-direction: column;
+
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8rem;
+  }
+
+  &__p {
+    display: flex;
+  }
+  &__p {
+    font-size: 1.8rem;
+    line-height: 1.5rem;
+    color: $light-black-color;
+    margin-right: 2rem;
+  }
+}
+
+.project__list {
+  display: flex;
+  flex-wrap: wrap;
+
+  &__item {
+    width: 53.5rem;
+    margin-right: 2rem;
+    margin-bottom: 5rem;
+    position: relative;
+  }
+}
+
+h4 {
+  font-size: 2.4rem;
+  line-height: 1.3rem;
+  font-weight: 700;
+  color: $white-color;
+  color: #fff;
+  margin-top: 2rem;
+  margin-bottom: 0.7rem;
+}
+
+.project__about h3 {
+  font-size: 4rem;
+  font-size: 2.4rem;
+  line-height: 1.3rem;
+  font-weight: 700;
+  color: $white-color;
+}
+
+.links a {
+  color: $white-color;
+  text-decoration: none;
+}
+
+.project__1 {
+  width: 54rem;
+  height: 40rem;
+  background-image: url(../../images/project-img-1.png);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project__2 {
+  width: 54rem;
+  height: 40rem;
+  background-image: url(../../images/project-img-2.png);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+      url(../../images/project-img-2.png);
+  }
+}
+.project__3 {
+  width: 54rem;
+  height: 40rem;
+  background-image: url(../../images/project-img-3.png);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+      url(../../images/project-img-3.png);
+  }
+}
+.project__4 {
+  width: 54rem;
+  height: 40rem;
+  background-image: url(../../images/project-img-4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    &:hover {
+      background-image: linear-gradient(
+          rgba(0, 0, 0, 0.75),
+          rgba(0, 0, 0, 0.75)
+        ),
+        url(../../images/project-img-4.png);
+    }
+  }
+}
+.project__5 {
+  width: 54rem;
+  height: 40rem;
+  background-image: url(../../images/project-img-5.png);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+      url(../../images/project-img-5.png);
+  }
+}
+
+.project__6 {
+  width: 54rem;
+  height: 40rem;
+  background-image: url(../../images/project-img-6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+      url(../../images/project-img-6.png);
+  }
+}
+
+.projects-box {
+  width: 540px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  margin-bottom: 2rem;
+
+  a {
+    visibility: hidden;
+    opacity: 0;
+  }
+  a {
+    color: $white-color;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    &::after {
+      width: 100%;
+      bottom: -0.7rem;
+      background-color: $light-green-color;
+    }
+  }
+  &:hover {
+    a {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+}
+
+.project__1:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(../../images/project-img-1.png);
+}
+
+.project__text {
+  color: $white-black-color;
+  font-family: $body-font-family;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1, 55; /* 155.556% */
+}
+
+.project__d {
+  margin-top: 20px;
+  // width: 213px;
+  // height: 32px;
+  font-size: 24px;
+  font-family: $body-font-family;
+  font-weight: 700;
+  display: flex;
+
+  h3 {
+    color: $white-color;
+    font-family: $body-font-family;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.33; /* 133.333% */
+  }
+}
+.project__p {
+  display: flex;
+  gap: 1.8rem;
+}
+.btn left {
+}
+.btn__hr {
+  border: none;
+  width: 144px;
+  height: 5px;
+}

@@ -1,0 +1,34 @@
+.contact {
+  color: $white-color;
+  font-family: $body-font-family;
+  font-size: 88px;
+  font-weight: 700;
+  display: flex;
+  background-color: $light-black-color;
+  padding-top: 8rem;
+  background-image: (url(../images/svg/wave.svg));
+  background-repeat: no-repeat;
+  background-position: bottom 4rem left -20rem;
+
+  &__p {
+    font-family: $body-font-family;
+
+    width: 44.5rem;
+    color: $white-black-color;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 3.6rem;
+  }
+}
+
+.contact__container {
+  display: flex;
+  margin-bottom: 9rem;
+}
+.contact__left {
+  h2 {
+    width: 330px;
+  }
+}
